@@ -8,24 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		3A967F7C1FAA83680038896B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A967F7B1FAA83680038896B /* AppDelegate.m */; };
-		3A967F7F1FAA83680038896B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A967F7E1FAA83680038896B /* ViewController.m */; };
 		3A967F821FAA83680038896B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A967F801FAA83680038896B /* Main.storyboard */; };
 		3A967F841FAA83680038896B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A967F831FAA83680038896B /* Assets.xcassets */; };
 		3A967F871FAA83680038896B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A967F851FAA83680038896B /* LaunchScreen.storyboard */; };
 		3A967F8A1FAA83680038896B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A967F891FAA83680038896B /* main.m */; };
+		3A967F961FAA859D0038896B /* StatesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A967F951FAA859D0038896B /* StatesTableViewController.m */; };
+		3A967F991FAA860C0038896B /* StateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A967F981FAA860C0038896B /* StateTableViewCell.m */; };
+		3A967F9B1FAA877B0038896B /* Flags in Resources */ = {isa = PBXBuildFile; fileRef = 3A967F9A1FAA877B0038896B /* Flags */; };
+		3A967F9E1FAA8A6A0038896B /* stateInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A967F9D1FAA8A6A0038896B /* stateInfo.m */; };
+		3A967FA11FAA99F70038896B /* StateDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A967FA01FAA99F70038896B /* StateDetailViewController.m */; };
+		3A967FA31FAAAACC0038896B /* birds in Resources */ = {isa = PBXBuildFile; fileRef = 3A967FA21FAAAACB0038896B /* birds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A967F771FAA83680038896B /* sc00US-States.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sc00US-States.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A967F7A1FAA83680038896B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3A967F7B1FAA83680038896B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3A967F7D1FAA83680038896B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3A967F7E1FAA83680038896B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3A967F811FAA83680038896B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A967F831FAA83680038896B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A967F861FAA83680038896B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A967F881FAA83680038896B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A967F891FAA83680038896B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A967F941FAA859D0038896B /* StatesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatesTableViewController.h; sourceTree = "<group>"; };
+		3A967F951FAA859D0038896B /* StatesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatesTableViewController.m; sourceTree = "<group>"; };
+		3A967F971FAA860C0038896B /* StateTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateTableViewCell.h; sourceTree = "<group>"; };
+		3A967F981FAA860C0038896B /* StateTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateTableViewCell.m; sourceTree = "<group>"; };
+		3A967F9A1FAA877B0038896B /* Flags */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Flags; sourceTree = "<group>"; };
+		3A967F9C1FAA8A6A0038896B /* stateInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stateInfo.h; sourceTree = "<group>"; };
+		3A967F9D1FAA8A6A0038896B /* stateInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stateInfo.m; sourceTree = "<group>"; };
+		3A967F9F1FAA99F70038896B /* StateDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StateDetailViewController.h; sourceTree = "<group>"; };
+		3A967FA01FAA99F70038896B /* StateDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StateDetailViewController.m; sourceTree = "<group>"; };
+		3A967FA21FAAAACB0038896B /* birds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = birds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +57,7 @@
 			children = (
 				3A967F791FAA83680038896B /* sc00US-States */,
 				3A967F781FAA83680038896B /* Products */,
+				3A967F931FAA85500038896B /* New Group */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +74,30 @@
 			children = (
 				3A967F7A1FAA83680038896B /* AppDelegate.h */,
 				3A967F7B1FAA83680038896B /* AppDelegate.m */,
-				3A967F7D1FAA83680038896B /* ViewController.h */,
-				3A967F7E1FAA83680038896B /* ViewController.m */,
 				3A967F801FAA83680038896B /* Main.storyboard */,
 				3A967F831FAA83680038896B /* Assets.xcassets */,
 				3A967F851FAA83680038896B /* LaunchScreen.storyboard */,
 				3A967F881FAA83680038896B /* Info.plist */,
 				3A967F891FAA83680038896B /* main.m */,
+				3A967FA21FAAAACB0038896B /* birds */,
+				3A967F9A1FAA877B0038896B /* Flags */,
+				3A967F9F1FAA99F70038896B /* StateDetailViewController.h */,
+				3A967FA01FAA99F70038896B /* StateDetailViewController.m */,
 			);
 			path = "sc00US-States";
+			sourceTree = "<group>";
+		};
+		3A967F931FAA85500038896B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				3A967F9C1FAA8A6A0038896B /* stateInfo.h */,
+				3A967F9D1FAA8A6A0038896B /* stateInfo.m */,
+				3A967F941FAA859D0038896B /* StatesTableViewController.h */,
+				3A967F951FAA859D0038896B /* StatesTableViewController.m */,
+				3A967F971FAA860C0038896B /* StateTableViewCell.h */,
+				3A967F981FAA860C0038896B /* StateTableViewCell.m */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +160,8 @@
 			files = (
 				3A967F871FAA83680038896B /* LaunchScreen.storyboard in Resources */,
 				3A967F841FAA83680038896B /* Assets.xcassets in Resources */,
+				3A967FA31FAAAACC0038896B /* birds in Resources */,
+				3A967F9B1FAA877B0038896B /* Flags in Resources */,
 				3A967F821FAA83680038896B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,9 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A967F7F1FAA83680038896B /* ViewController.m in Sources */,
+				3A967F961FAA859D0038896B /* StatesTableViewController.m in Sources */,
 				3A967F8A1FAA83680038896B /* main.m in Sources */,
 				3A967F7C1FAA83680038896B /* AppDelegate.m in Sources */,
+				3A967F991FAA860C0038896B /* StateTableViewCell.m in Sources */,
+				3A967F9E1FAA8A6A0038896B /* stateInfo.m in Sources */,
+				3A967FA11FAA99F70038896B /* StateDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
